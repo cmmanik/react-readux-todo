@@ -46,11 +46,11 @@ class Modals extends React.Component {
           <Form onSubmit={this.submitHandle}>
             <FormGroup>
             <Label for="title">Title</Label>
-            <Input type="text" onChange={this.changeHandler} value={title} name="title" id="title" placeholder="Todo Title" />
+            <Input type="text" onChange={this.changeHandler} required value={title} name="title" id="title" placeholder="Todo Title" />
             </FormGroup>
             <FormGroup>
             <Label for="description">Todo Description</Label>
-            <Input type="textarea" onChange={this.changeHandler} value={description} name="description" id="description" placeholder="Todo description" />
+            <Input type="textarea" required onChange={this.changeHandler} value={description} name="description" id="description" placeholder="Todo description" />
             </FormGroup>
             <Button color="primary">Submit</Button>
         </Form>
