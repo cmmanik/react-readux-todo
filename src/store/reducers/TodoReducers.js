@@ -1,14 +1,14 @@
 import { ADD_TODO, MARK_DONE, FILTER_TODO, REMOVE_TODO, } from "../actions/actionType";
 const init = {
     todos:[{
-        "title": "first todo",
-        "description": "this is my first todo",
+        "title": "Meetup Today",
+        "description": "Today i want to meet my friend and ........... ",
         "isComplete": false,
         "id": 1563217752827
         },
         {
-        "title": "first todo",
-        "description": "this is my first todo",
+        "title": "Done The project",
+        "description": "30 jun must be complete the project",
         "isComplete": true,
         "id": 1563217752858827
         }],
